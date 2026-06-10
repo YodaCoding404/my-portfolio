@@ -16,7 +16,7 @@ function Contact() {
         "service_7cbmx2g",
         "template_q2hmog8",
         form.current,
-        "XYrZpnzPt3me2gJ61"
+        "XYrZpnzPt3me2gJ61",
       )
       .then(
         () => {
@@ -27,7 +27,7 @@ function Contact() {
         () => {
           setLoading(false);
           toast.error("Failed to send. Please try again.");
-        }
+        },
       );
   };
 
@@ -125,7 +125,7 @@ function Contact() {
             </div>
             <div>
               <span className="font-semibold">Email:</span>
-              <div>thenightking011@gmail.com</div>
+              <div>yvesthomas101@gmail.com</div>
             </div>
             {/* Social Media Icons */}
             <div className="flex gap-4 mt-4 text-2xl">
